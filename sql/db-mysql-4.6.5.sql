@@ -4,6 +4,7 @@ SET FOREIGN_KEY_CHECKS = 0;
 -- ----------------------------
 -- Table structure for app
 -- ----------------------------
+use PPBL_BUCT;
 DROP TABLE IF EXISTS `app`;
 CREATE TABLE `app`  (
   `app_id` int(11) NOT NULL AUTO_INCREMENT COMMENT '站点id',
